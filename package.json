@@ -2,11 +2,14 @@
   "name": "purify-ts-filter",
   "version": "1.0.0",
   "description": "filter function for purify-ts List utilities",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "dependencies": {
     "purify-ts": "2.1.0"
   },
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,5 +19,8 @@
     "Maybe"
   ],
   "author": "Tjerk Valentijn",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "5.6.3"
+  }
 }
