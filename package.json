@@ -1,0 +1,20 @@
+{
+  "name": "purify-ts-filter",
+  "version": "1.0.0",
+  "description": "filter function for purify-ts List utilities",
+  "main": "index.js",
+  "dependencies": {
+    "purify-ts": "2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "purify-ts",
+    "filter",
+    "List",
+    "Maybe"
+  ],
+  "author": "Tjerk Valentijn",
+  "license": "ISC"
+}
