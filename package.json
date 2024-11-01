@@ -1,6 +1,6 @@
 {
   "name": "purify-ts-filter",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "filter function for purify-ts List utilities",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -8,7 +8,7 @@ A more typesafe version of the already existing Array.prototype.filter
 Can be partially applied.
 
 ```typescript
-import { filter } from 'purify-ts/Array';
+import { filter } from "purify-ts-filter";
 
 const isEven = (n: number) => n % 2 === 0;
 const numbers = [1, 2, 3, 4, 5, 6];
